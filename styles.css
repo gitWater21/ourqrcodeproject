@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins&family=Ubuntu+Mono:wght@700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Outfit", sans-serif;
+}
+
+
+.body{
+ background-color: hsl(212, 45%, 89%);
+}
+
+.qrcode-img{
+ width: 280px;
+ height: 300px;
+ border-radius: 15px;
+
+}
+
+.img-box{
+ max-width: 280px;
+ margin: auto;
+}
+.card-box{
+ background-color: hsl(0, 0%, 100%);
+ max-width: 320px;
+ padding-block: 20px;
+ /* padding-inline: 5px; */
+ margin: auto;
+ border-radius: 15px;
+ margin-top: 15%;
+
+
+
+}
+
+.content-box{
+ text-align: center;
+ max-width: 250px;
+ margin: auto;
+ margin-block: 6%;
+}
+
+.content-box h1{
+ font-size: 20px;
+ /* letter-spacing: ; */
+ 
+ color: hsl(218, 44%, 22%);
+}
+
+p{
+ margin-block: 7%;
+ /* text-align: left; */
+ font-size: 18px;
+ color: hsl(220, 15%, 55%);
+}
+
+
+@media screen and (min-width: 375px) {
+
+ 
+ .card-box{
+  margin-top: 8%;
+ }
+}
